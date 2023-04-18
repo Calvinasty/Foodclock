@@ -1,0 +1,46 @@
+body {
+  margin-top: 20%;
+  background: #e3e9d1;
+}
+
+.collapsible {
+  border: none;
+  box-shadow: none !important;
+}
+.collapsible-header {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  background: #e3e9d1;
+}
+.collapsible-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+.collapsible-body {
+  border-bottom: none;
+}
+
+input::placeholder {
+  color: rgba(120, 121, 115, 0.74);
+}
+
+.menu-box {
+  margin: 0px 50px;
+  margin-top: 10%;
+}
+
+.fc_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fc_logo > img {
+  height: 160px;
+  border-radius: 50%;
+}
